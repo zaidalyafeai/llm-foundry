@@ -1,3 +1,4 @@
+cd eval
 composer train/train.py \
   train/yamls/pretrain/mpt-125m.yaml \
   variables.data_local=my-copy-c4 \
