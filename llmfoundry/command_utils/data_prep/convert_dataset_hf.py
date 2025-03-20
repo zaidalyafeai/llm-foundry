@@ -130,8 +130,8 @@ c4constants.splits['train'] = DataSplitConstants(
 c4constants.splits['train_small'] = DataSplitConstants(
     hf_split='train',
     folder_split='train_small',
-    raw_samples=100000,
-    truncated_samples=100000,
+    raw_samples=10000,
+    truncated_samples=10000,
 )
 c4constants.splits['val'] = DataSplitConstants(
     hf_split='validation',
