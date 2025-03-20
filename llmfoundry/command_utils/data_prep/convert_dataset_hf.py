@@ -52,8 +52,8 @@ class TrainSmallConstants(DataSplitConstants):
         self,
         hf_split: str = 'train',
         folder_split: str = 'train_small',
-        raw_samples: int = 100000,
-        truncated_samples: int = 100000,
+        raw_samples: int = 10000,
+        truncated_samples: int = 10000,
     ):
         super().__init__(hf_split, folder_split, raw_samples, truncated_samples)
 
